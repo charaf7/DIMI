@@ -15,6 +15,7 @@ footer{
 .contact{
 	width: 30%;
 	margin-left: 20px;
+	line-height: 2;
 }
 .going{
 	width: 30%;
@@ -37,6 +38,8 @@ h5 a{
 	color: #BCBDBF;
 	text-decoration: none;
 	margin-left: 15px;
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
 }
 h5 a:hover{
 	color: white;
@@ -55,6 +58,6 @@ h5 a:hover{
 	margin-top: 17%;
 }
 span{
-	color: #BCBDBF;
+	color: #EAEAEA;
 	font-family: 'Abel', sans-serif;
 }
