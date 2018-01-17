@@ -1,0 +1,93 @@
+html{
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 180px;
+    height: auto;
+    margin: 6px;
+}
+
+#menu{
+    display: flex;
+    margin: 6px;
+    padding-top: 2.5%;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 60px;
+    color: #8c8c8c;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+#menu a[href="../pages/realisations.html"] {
+  color: black;
+}
+
+#menu a:hover {
+  color: black;
+}
+#banniere{
+    background-color: #004D85;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    color: #FFFFFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+#submenu{
+    display: flex;
+    
+}
+#submenu-index{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 13%;
+}
+
+#submenu-master{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 15%;
+}
+
+#submenu-admission{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 4%;
+}
+
+#submenu-realisation{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 6%;
+}
+
+#submenu-mondePro{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
