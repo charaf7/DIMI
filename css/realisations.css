@@ -69,14 +69,14 @@ header img{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    margin-right: 15%;
+    margin-right: 8%;
 }
 
 #submenu-admission{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    margin-right: 4%;
+    margin-right: 15%;
 }
 
 #submenu-realisation{
