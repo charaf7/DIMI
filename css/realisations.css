@@ -12,7 +12,7 @@ header{
 }
 
 header img{
-    width: 50%;
+    width: 180px;
     height: auto;
     margin: 6px;
 }
@@ -49,6 +49,45 @@ header img{
     font-size: 20px;
 }
 
-#selected{
-    color: #5F5F5F;
+#navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+#submenu{
+    display: flex;
+    
+}
+#submenu-index{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 13%;
+}
+
+#submenu-master{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 15%;
+}
+
+#submenu-admission{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 4%;
+}
+
+#submenu-realisation{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 6%;
+}
+
+#submenu-mondePro{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
 }
