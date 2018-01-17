@@ -1,3 +1,40 @@
-.navigation-wrapper{
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navigation-wrapper {
   display: flex;
+  justify-content: space-between;
+}
+.menu-wrapper {
+  background-color: #E5E9F1;
+  width: 320px;
+}
+ul.menu__list {
+  display: flex;
+  flex-direction: column;
+}
+li.menu__element {
+  display: block;
+  border-bottom: 1px solid white;
+  font-family: 'Fjalla One', sans-serif;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.menu__element:last-child {
+  border-bottom: none;
+}
+@media screen and (min-width: 1280px) {
+  .menu-wrapper {
+    background: none;
+    width: 55%;
+  }
+  ul.menu__list {
+    flex-direction: row;
+  }
+  li.menu__element {
+    width: 140px;
+  }
 }
