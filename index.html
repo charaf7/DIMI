@@ -4,6 +4,7 @@
 	<title>DIMI</title>
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
 </head>
 
 <body>
@@ -17,7 +18,40 @@
 	</div>
 
 	<footer>
-		
+		<div class="faq">
+			<h4 class="infoPratique">Infos pratiques</h4>
+			<h5><a href="faq.html">F.A.Q</a></h5>
+			<div class="universite"><a href="https://www.univ-paris13.fr/"><img src="images/logo-UP13.png"></a></div>
+		</div>
+		<div class="line"></div>
+		<div class="contact">
+			<h4 class="contactText">Contact</h4>
+			<span><b>Mail:</b>master.dimi@univ-paris13.fr</span><br>
+			<span><b>Tél:</b> 01 49 40 20 44</span><br>
+			<span><bold>Bureau G-210</bold></span>
+		</div>
+		<div class="line"></div>
+		<div class="going">
+			<h4>Comment s'y rendre</h4>
+			<div id="map"></div>
+		</div>
+		<script>
+      function initMap() {
+        var uluru = {lat: 48.9561507, lng: 2.3412625999999364 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAI9eX805O1gqZDfQubFn34drs8LVN164U&callback=initMap">
+    </script>
+
 	</footer>
 
 </body>
