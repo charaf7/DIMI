@@ -68,7 +68,26 @@ li.menu__element {
     flex-direction: row;
   }
   li.menu__element {
+    position: relative;
     width: 140px;
     border-bottom: none;
   }
+  li.menu__element::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: white;
+  }
+  li.menu__element:hover {
+    cursor: pointer;
+    color: white;
+  }
+  li.menu__element:hover::after {
+    width: 140px;
+    transition: width 0.5s;
+  }
+
 }
