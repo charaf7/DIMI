@@ -3,6 +3,26 @@ ul {
   padding: 0;
   margin: 0;
 }
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 30px;
+}
+h1, h2 {
+  
+}
+a {
+  color: inherit;
+}
+.header-wrapper {
+  background: url('../images/background.jpg') no-repeat center;
+  background-size: cover;
+  position: relative;
+}
 .navigation-wrapper {
   display: flex;
   justify-content: space-between;
@@ -26,7 +46,36 @@ li.menu__element {
 .menu__element:last-child {
   border-bottom: none;
 }
-@media screen and (min-width: 1280px) {
+.title-wrapper {
+  text-align: center;
+  height: 100px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 285px;
+}
+.title-wrapper h1, .title-wrapper h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.btn-godown {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-godown:hover {
+  color: white;
+}
+.btn-godown .fa-chevron-down::before {
+  font-size: 50px;
+}
+@media screen and (min-width: 1025px) {
+  .header-wrapper {
+    height: 720px;
+  }
   .menu-wrapper {
     background: none;
     width: 55%;
@@ -35,6 +84,26 @@ li.menu__element {
     flex-direction: row;
   }
   li.menu__element {
+    position: relative;
     width: 140px;
+    border-bottom: none;
   }
+  li.menu__element::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: white;
+  }
+  li.menu__element:hover {
+    cursor: pointer;
+    color: white;
+  }
+  li.menu__element:hover::after {
+    width: 140px;
+    transition: width 0.5s;
+  }
+
 }
