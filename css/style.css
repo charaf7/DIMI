@@ -11,11 +11,13 @@ footer{
 .faq{
 	width: 30%;
 	margin-left: 20px;
+	position: relative;
 }
 .contact{
 	width: 30%;
 	margin-left: 20px;
 	line-height: 2;
+	position: relative;
 }
 .going{
 	width: 30%;
@@ -55,9 +57,63 @@ h5 a:hover{
 	height: 120px;
 	width: 1px;
 	background-color: #BCBDBF;
-	margin-top: 17%;
+	position: absolute;
+	top: 15%;
+	right: 0;
 }
 span{
 	color: #EAEAEA;
 	font-family: 'Abel', sans-serif;
+}
+.presentation{
+	height:  300px;
+	width: 100%;
+	display: table;
+}
+.presentation p{
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+	padding: 40px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+#horizLine{
+	width: 80%;
+	height: 1px;
+	background-color: #BCBDBF;
+	display: block;
+	margin: 0 auto;
+}
+.mot{
+	height: 300px;
+	width: 100%;
+}
+.picture{
+	width: 30%;
+	float: left;
+	height: 300px;
+	position:relative;
+
+}
+.picture img{
+	width: 50%;
+	border-radius: 50%;
+	top: 20%;
+	position: absolute;
+	left: 23%;
+}
+.motChef{
+	width: 70%;
+	float: left;
+	display: table;
+	height: 300px;
+}
+.motChef p {
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+	padding: 40px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
