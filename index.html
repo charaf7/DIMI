@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/slick/slick.css">
 
 </head>
 
@@ -42,6 +44,11 @@
 		
 	</header>
 
+	<div class="slide-container">
+		<div class="slide-element slide1"></div>
+		<div class="slide-element slide2"></div>
+		<div class="slide-element slide3"></div>
+	</div>
 	
 	<div>
 		
@@ -80,7 +87,14 @@
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAI9eX805O1gqZDfQubFn34drs8LVN164U&callback=initMap">
-    </script>
+		</script>
+		<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/slick/slick.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.slide-container').slick()
+			});
+		</script>
 
 	</footer>
 
