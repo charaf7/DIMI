@@ -126,3 +126,45 @@ header img{
     padding-left: 7px;
     padding-bottom: 7px;
 }
+
+
+#conteneur {
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+.webdoc {
+	
+	width: 50%;
+	height: 300px;
+	float: left;
+	background-color: darkmagenta;
+}
+
+.realisation1 {
+	width: 50%;
+	height: 300px;
+	float: left;
+	background-color: palevioletred;
+}
+
+.maquette {
+	height: 50%;
+	width: 100%;
+}
+.memoires {
+	height: 50%;
+	width: 100%;
+}
+
+.typo {
+	
+	text-decoration: none;
+    font-size: 24px;
+    margin-left: 15px;
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif
+	
+}
