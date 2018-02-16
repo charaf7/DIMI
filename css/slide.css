@@ -9,6 +9,9 @@
 .slide-prev::before, .slide-next::before {
   font-size: 50px;
 }
+.slide-prev:hover, .slide-next:hover {
+  cursor: pointer;
+}
 .slide-prev {
   left: 1%;
 }
