@@ -1,0 +1,17 @@
+.slide-container {
+  position: relative;
+}
+.slide-prev, .slide-next {
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+}
+.slide-prev::before, .slide-next::before {
+  font-size: 50px;
+}
+.slide-prev {
+  left: 1%;
+}
+.slide-next {
+  right: 1%;
+}
