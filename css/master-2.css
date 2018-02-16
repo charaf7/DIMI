@@ -128,84 +128,6 @@ header img{
 }
 
 
-#conteneur {
-	display: flex;
-	flex-direction: column;
-	
-	
-}
-
-.webdoc {
-	
-	width: 50%;
-	height: 700px;
-	float: left;
-	background-color: darkmagenta;
-	
-}
-
-
-.webdoc:hover {
-	background-color: blue;
-	cursor: pointer;
-}
-
-
-.maquette:hover {
-	background-color: blue;
-	cursor: pointer;
-}
-
-
-.memoires:hover {
-	background-color: blue;
-	cursor: pointer;
-}
-
-
-
-
-.realisation1 {
-	width: 50%;
-	height: 700px;
-	float: left;
-	
-}
-
-.maquette {
-	height: 350px;
-	width: 100%;
-	background-color: palevioletred;
-}
-.memoires {
-	height: 350px;
-	width: 100%;
-	background-color: lightcoral;
-}
-
-.typo {
-	
-	text-decoration: none;
-    font-size: 24px;
-    margin-left: 15px;
-    color: #fff;
-    font-family: 'Fjalla One', sans-serif;
-	padding-left: 5px;
-	padding-top: 15px;
-}
-
-
-.typo1 {
-	
-	text-decoration: none;
-    font-size: 24px;
-    margin-left: 15px;
-    color: #1d2354;
-    font-family: 'Fjalla One', sans-serif
-	
-}
-
-
 h2 {
 	font-family: 'Fjalla One', sans-serif;
 	color: #1d2354;
@@ -224,29 +146,35 @@ h2 {
 	margin-bottom: 2%
 }
 
-.container {
+
+
+#h2-wrap {
+	border-bottom : solid 1px #1d2354;
+	display: inline-block;
+	width: 150px;
+	text-align: center;	
+	margin-top : 2%;
+	padding-bottom: 0%;
+	margin-bottom: 2%
+}
+
+
+.description {
 	
-	display: flex; 
-	flex-direction: row; 
-	justify-content: space-around;
+	width: 100%;
+	padding-left: 10px;
 	
 }
 
-.semestre {
-	
+.liste {
 	width: 30%;
-	height: 450px;
-	float: left;
-	background-color: darkmagenta;
-	border-radius: 30px;
-}
-
-.matiere {
-	width: 65%;
-	height: 450px;
-	float: left;
-	background-color: palevioletred;
+	padding-left: 30%;
 	
-	border-radius: 30px;
 }
 
+
+.admission{
+	
+	display:flex;
+	
+}
