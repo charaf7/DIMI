@@ -117,3 +117,14 @@ span{
 	vertical-align: middle;
 	text-align: center;
 }
+.stats{
+	height: 90vh;
+	display: flex;
+}
+.stats .row{
+	width: calc(100%/3);
+	text-align: center;
+}
+h3{
+	font-family: 'Abel', sans-serif;
+}
