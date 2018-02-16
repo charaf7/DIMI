@@ -133,7 +133,10 @@
 	<script type="text/javascript" src="js/slick/slick.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('.slide-container').slick()
+			$('.slide-container').slick({
+				prevArrow: '<i class="slide-prev fas fa-chevron-left"></i>',
+				nextArrow: '<i class="slide-next fas fa-chevron-right"></i>'
+			})
 		});
 	</script>
 	<script src="js/jquery.circliful.min.js"></script>
