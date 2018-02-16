@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+	
 
 
 </head>
@@ -69,6 +71,27 @@
 			Alors oui bonjour, cette formation est destinée à faire des comptes rendus et faire les projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des prof.</p>
 		</div>
 	</div>
+	<div id="horizLine"></div>
+	<div class="stats">
+		<div class="row">
+		    <div class="col-lg-2">
+		        <div id="students"></div>
+		    </div>
+		    <h3>Etudiants par année</h3>
+		</div>
+		<div class="row">
+		    <div class="col-lg-2">
+		        <div id="passing"></div>
+		    </div>
+		    <h3>Réussite</h3>
+		</div>
+		<div class="row">
+		    <div class="col-lg-2">
+		        <div id="working"></div>
+		    </div>
+		    <h3>Embauche</h3>
+		</div>
+	</div>
 
 	<footer>
 		<div class="faq">
@@ -88,7 +111,11 @@
 			<h4>Comment s'y rendre</h4>
 			<div id="map"></div>
 		</div>
-		<script>
+		
+	</footer>
+
+
+	<script>
       function initMap() {
         var uluru = {lat: 48.9561507, lng: 2.3412625999999364 };
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -101,22 +128,16 @@
         });
       }
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAI9eX805O1gqZDfQubFn34drs8LVN164U&callback=initMap">
-		</script>
-		<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/slick/slick.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('.slide-container').slick({
-					prevArrow: '<i class="slide-prev fas fa-chevron-left"></i>',
-					nextArrow: '<i class="slide-next fas fa-chevron-right"></i>'
-				})
-			});
-		</script>
-
-	</footer>
-
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAI9eX805O1gqZDfQubFn34drs8LVN164U&callback=initMap"></script>
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slide-container').slick()
+		});
+	</script>
+	<script src="js/jquery.circliful.min.js"></script>
+	<script src="js/stats.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
