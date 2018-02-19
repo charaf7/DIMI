@@ -1,0 +1,180 @@
+html{
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 180px;
+    height: auto;
+    margin: 6px;
+}
+
+#menu{
+    display: flex;
+    margin: 6px;
+    padding-top: 2.5%;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 60px;
+    color: #8c8c8c;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+#menu a[href="../pages/realisations.html"] {
+  color: black;
+}
+
+#menu a:hover {
+  color: black;
+}
+#banniere{
+    background-color: #004D85;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    color: #FFFFFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: column;
+    /*position: absolute;
+    z-index: 0;*/
+    
+}
+
+#submenu{
+    display: flex;
+   /* position: relative;
+    z-index: 1;*/
+    
+}
+
+#submenu a{
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    
+}
+#submenu-index{
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    margin-right: 7%;
+    background-color: white;
+    padding-right: 40px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+  
+}
+
+#submenu-master{
+    display: flex;
+     visibility: hidden;
+    flex-direction: column;
+    background-color: white;
+    padding-right: 40px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    margin-right: 3%;
+}
+
+#submenu-admission{
+    display: flex;
+     visibility: hidden;
+    flex-direction: column;
+    background-color: white;
+   padding-right: 40px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    margin-right: 8%;
+    
+}
+
+#submenu-realisation{
+   display: flex;
+     visibility: hidden;
+    flex-direction: column;
+    background-color: white;
+    padding-right: 40px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    margin-right: 1%;
+}
+
+#submenu-mondePro{
+    display: flex;
+     visibility: hidden;
+    flex-direction: column;
+    background-color: white;
+   padding-right: 40px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+}
+
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	color: #1d2354;
+	font-size : 24px;
+	margin: 0;
+	padding: 0;
+}
+
+#h2-wrap {
+	border-bottom : solid 1px #1d2354;
+	display: inline-block;
+	width: 150px;
+	text-align: center;	
+	margin-top : 2%;
+	padding-bottom: 0%;
+	margin-bottom: 2%
+}
+
+
+
+#h2-wrap {
+	border-bottom : solid 1px #1d2354;
+	display: inline-block;
+	width: 150px;
+	text-align: center;	
+	margin-top : 2%;
+	padding-bottom: 0%;
+	margin-bottom: 2%
+}
+
+
+.description {
+	
+	width: 100%;
+	padding-left: 10px;
+	
+}
+
+.liste {
+	width: 30%;
+	padding-left: 30%;
+	
+}
+
+
+.admission{
+	
+	display:flex;
+	
+}

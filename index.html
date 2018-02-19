@@ -10,6 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+	
+
 
 </head>
 
@@ -17,7 +21,7 @@
 	<header class="header-wrapper">
 		<div class="navigation-wrapper">
 			<div class="logo-container">
-				<img class="logo-img" id="logo" src="images/logo_dimi.png" width="150" heigh="auto" alt="logo-dimi">
+				<a href="index.html"><img class="logo-img" id="logo" src="images/logo_dimi.png" width="150" heigh="auto" alt="logo-dimi"></a>
 			</div>
 			<div class="menu-wrapper">
 				<nav class="menu" id="menu">
@@ -37,14 +41,14 @@
 			<h2>Université Paris XIII</h2>
 		</div>
 		<div class="btn-godown">
-			<a href="#">
+			<a href="#slides">
 					<i class="fas fa-chevron-down"></i>
 			</a>
 		</div>
 		
 	</header>
 
-	<div class="slide-container">
+	<div class="slide-container" id="slides">
 		<div class="slide-element slide1"></div>
 		<div class="slide-element slide2"></div>
 		<div class="slide-element slide3"></div>
@@ -54,25 +58,64 @@
 		
 	</div>
 
+	<div class="presentation">
+		<p>Le Master DIMI dispense une formation théorique et pratique portant sur la traduction d’une commande en objectifs opératoires et la conduite de projet multimédia, internet et intranet.</p>
+	</div>
+	<div id="horizLine"></div>
+
+	<div class="mot">
+		<div class="picture"><img src="images/LAITANO.jpg"></div>
+		<div class="motChef">
+			<p>Alors oui bonjour, cette formation est destinée à faire des comptes rendus et faire les projets des prof.
+			Alors oui bonjour, cette formation est destinée à faire des comptes rendus et faire les projets des prof.
+			Alors oui bonjour, cette formation est destinée à faire des comptes rendus et faire les projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des profs projets des prof.</p>
+		</div>
+	</div>
+	<div id="horizLine"></div>
+	<div class="stats">
+		<div class="row">
+		    <div class="col-lg-2">
+		        <div id="students"></div>
+		    </div>
+		    <h3>Etudiants par année</h3>
+		</div>
+		<div class="row">
+		    <div class="col-lg-2">
+		        <div id="passing"></div>
+		    </div>
+		    <h3>Réussite</h3>
+		</div>
+		<div class="row">
+		    <div class="col-lg-2">
+		        <div id="working"></div>
+		    </div>
+		    <h3>Embauche</h3>
+		</div>
+	</div>
+
 	<footer>
 		<div class="faq">
 			<h4 class="infoPratique">Infos pratiques</h4>
 			<h5><a href="faq.html">F.A.Q</a></h5>
 			<div class="universite"><a href="https://www.univ-paris13.fr/"><img src="images/logo-UP13.png"></a></div>
+			<div class="line"></div>
 		</div>
-		<div class="line"></div>
 		<div class="contact">
 			<h4 class="contactText">Contact</h4>
 			<span><b>Mail:</b> master.dimi@univ-paris13.fr</span><br>
 			<span><b>Tél:</b> 01 49 40 20 44</span><br>
 			<span><bold>Bureau G-210</bold></span>
+			<div class="line"></div>
 		</div>
-		<div class="line"></div>
 		<div class="going">
 			<h4>Comment s'y rendre</h4>
 			<div id="map"></div>
 		</div>
-		<script>
+		
+	</footer>
+
+
+	<script>
       function initMap() {
         var uluru = {lat: 48.9561507, lng: 2.3412625999999364 };
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -85,18 +128,19 @@
         });
       }
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAI9eX805O1gqZDfQubFn34drs8LVN164U&callback=initMap">
-		</script>
-		<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="js/slick/slick.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('.slide-container').slick()
-			});
-		</script>
-
-	</footer>
-
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAI9eX805O1gqZDfQubFn34drs8LVN164U&callback=initMap"></script>
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slide-container').slick({
+				prevArrow: '<i class="slide-prev fas fa-chevron-left"></i>',
+				nextArrow: '<i class="slide-next fas fa-chevron-right"></i>'
+			})
+		});
+	</script>
+	<script src="js/jquery.circliful.min.js"></script>
+	<script src="js/stats.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
