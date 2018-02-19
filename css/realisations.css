@@ -23,12 +23,16 @@ header img{
     padding-top: 2.5%;
 }
 
+#menu li{
+    list-style-type: none;
+}
 #menu a{
     text-decoration: none;
     font-size: 24px;
-    margin-right: 60px;
+    margin-right: 50px;
     color: #8c8c8c;
     font-family: 'Fjalla One', sans-serif;
+    
 }
 
 
@@ -57,41 +61,50 @@ header img{
     
 }
 
-#submenu{
+ /*.submenu{
     display: flex;
    /* position: relative;
-    z-index: 1;*/
+    z-index: 1;
     
 }
+ */
 
-#submenu a{
-    text-decoration: none;
-    color: #8c8c8c;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 15px;
-    
-}
 #submenu-index{
     display: flex;
     visibility: hidden;
     flex-direction: column;
-    margin-right: 7%;
     background-color: white;
     padding-right: 40px;
     padding-left: 7px;
     padding-bottom: 7px;
+    
   
 }
+
+#submenu-index a{   
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: 'Fjalla One', sans-serif;
+   font-size: 18px;
+    
+}
+
 
 #submenu-master{
     display: flex;
      visibility: hidden;
     flex-direction: column;
-    background-color: white;
-    padding-right: 40px;
+    background-color: white; 
     padding-left: 7px;
     padding-bottom: 7px;
-    margin-right: 3%;
+}
+
+#submenu-master a{   
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    
 }
 
 #submenu-admission{
@@ -99,10 +112,16 @@ header img{
      visibility: hidden;
     flex-direction: column;
     background-color: white;
-   padding-right: 40px;
     padding-left: 7px;
     padding-bottom: 7px;
-    margin-right: 8%;
+    
+}
+
+#submenu-admission a{   
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
     
 }
 
@@ -111,10 +130,16 @@ header img{
      visibility: hidden;
     flex-direction: column;
     background-color: white;
-    padding-right: 40px;
     padding-left: 7px;
     padding-bottom: 7px;
-    margin-right: 1%;
+}
+
+#submenu-realisation a{   
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    
 }
 
 #submenu-mondePro{
@@ -124,5 +149,12 @@ header img{
     background-color: white;
    padding-right: 40px;
     padding-left: 7px;
-    padding-bottom: 7px;
+}
+
+#submenu-mondePro a{   
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: 'Fjalla One', sans-serif;
+   font-size: 18px;
+    
 }
