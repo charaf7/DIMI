@@ -24,7 +24,7 @@ a {
 
 /* HEADER */
 .header-wrapper {
-  background: url('../images/background.jpg') no-repeat center;
+  background: url('../images/1.png') no-repeat center;
   background-size: cover;
   position: relative;
   height: 100vh;
@@ -32,13 +32,13 @@ a {
 .navigation-wrapper {
   display: flex;
   justify-content: space-between;
-  background : rgba(202, 205, 207, 0.5);
+  background : rgba(202, 205, 207, 0.2);
   position: fixed;
   width: 100%;
   z-index: 2;
 }
 .navigation-wrapper.scrolled {
-  background : rgba(202, 205, 207, 1);
+  background : #C71D82;
 }
 .menu-wrapper {
   background-color: #E5E9F1;
@@ -58,6 +58,7 @@ li.menu__element {
   height: 60px;
   line-height: 60px;
   text-align: center;
+  color : #fff;
 }
 .menu__element:last-child {
   border-bottom: none;
@@ -74,6 +75,7 @@ li.menu__element {
 .title-wrapper h1, .title-wrapper h2 {
   margin-bottom: 0;
   margin-top: 0;
+  color :#fff;
 }
 .logo-container img{
   height: 65px;
@@ -86,9 +88,10 @@ li.menu__element {
   bottom: -10px;
   left: 50%;
   transform: translate(-50%, -50%);
+  color : #fff;
 }
 .btn-godown:hover {
-  color: white;
+  color: #000;
 }
 .btn-godown .fa-chevron-down::before {
   font-size: 50px;
@@ -108,7 +111,8 @@ li.menu__element {
   height: 500px !important;
 }
 .slide-element.slide1 {
-  background: rgb(71, 71, 72)
+  background: rgb(71, 71, 72);
+  
 }
 .slide-element.slide2 {
   background: rgb(134, 134, 135)
