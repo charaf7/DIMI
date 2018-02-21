@@ -9,12 +9,13 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    height: 15vh;
 }
 
 header img{
-    width: 180px;
+    width: 124px;
     height: auto;
-    margin: 6px;
+    margin: 10px;
 }
 
 #menu{
@@ -23,13 +24,15 @@ header img{
     padding-top: 2.5%;
 }
 
-#menu li{
+#menu > li{
     list-style-type: none;
+    width: 165px;
+    line-height: 75px;
+    height: 50px;
 }
 #menu a{
     text-decoration: none;
-    font-size: 24px;
-    margin-right: 50px;
+    font-size: 18px;
     color: #8c8c8c;
     font-family: 'Fjalla One', sans-serif;
     
@@ -45,12 +48,13 @@ header img{
 }
 #banniere{
     background-color: #004D85;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     padding-left: 2%;
     color: #FFFFFF;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+    height: 12vh;
 }
 
 #navigation{
@@ -68,7 +72,12 @@ header img{
     
 }
  */
-
+a{
+    text-decoration: none;
+}
+.submenu li {
+    list-style-type: none;
+}
 #submenu-index{
     display: flex;
     visibility: hidden;
@@ -170,28 +179,30 @@ header img{
 .webdoc {
 	
 	width: 50%;
-	height: 700px;
+	height: 67vh;
 	float: left;
-	background-color: darkmagenta;
+	background-color: #727272;
+    background : url('../images/webdocBW.jpg') no-repeat;
+    background-size: cover;
 	
 }
 
 
 .webdoc:hover {
-	background-color: blue;
-	cursor: pointer;
+	background : url('../images/webdoc.jpg') no-repeat;
+    background-size: cover;
 }
 
 
 .maquette:hover {
-	background-color: blue;
-	cursor: pointer;
+	background : url('../images/maquette.jpg') no-repeat;
+    background-size: cover;
 }
 
 
 .memoires:hover {
-	background-color: blue;
-	cursor: pointer;
+	background : url('../images/memoire.jpg') no-repeat;
+    background-size: cover;
 }
 
 
@@ -199,31 +210,34 @@ header img{
 
 .realisation1 {
 	width: 50%;
-	height: 700px;
+	height: 67vh;
 	float: left;
 	
 }
 
 .maquette {
-	height: 350px;
+	height: 33.5vh;
 	width: 100%;
-	background-color: palevioletred;
+	background-color: #666;
+    background : url('../images/maquetteBW.jpg') no-repeat;
+    background-size: cover;
 }
 .memoires {
-	height: 350px;
+	height: 33.5vh;
 	width: 100%;
-	background-color: lightcoral;
+	background-color: #eee;
+    background : url('../images/memoireBW.jpg') no-repeat;
+    background-size: cover;
 }
 
 .typo {
 	
 	text-decoration: none;
-    font-size: 24px;
-    margin-left: 15px;
+    font-size: 35px;
     color: #fff;
     font-family: 'Fjalla One', sans-serif;
-	padding-left: 5px;
-	padding-top: 15px;
+	padding-top: 15%;
+    text-align: center;
 }
 
 

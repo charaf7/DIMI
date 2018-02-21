@@ -1,4 +1,6 @@
 
+	var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+	
     $( document ).ready(function() {
 	$("#students").circliful({
                 animationStep: 4.5,
