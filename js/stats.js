@@ -1,19 +1,20 @@
 
-	var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
-	
+
     $( document ).ready(function() {
 	$("#students").circliful({
                 animationStep: 4.5,
                 foregroundBorderWidth: 7,
                 backgroundBorderWidth: 0,
-                percent: 80,
-                textAdditionalCss : "font-family : abel",
+                percent: 10,
+                textAdditionalCss : "font-family : abel;",
                 percentageY : 110,
                 animateInView : true,
-                text : "Etudiants par année",
+                text : "Taux d'admission chaque année",
                 textBelow : true,
                 textStyle : "font-family : abel; font-size : 12px;",
                 foregroundColor:"#45B8E5",
+                fillColor : "#eee",
+                fontColor : "#666"
            });
    	});
 
@@ -30,6 +31,8 @@
                 text : "Taux de réussite chaque année",
                 textBelow : true,
                 textStyle : "font-family : abel; font-size : 12px;",
+                fillColor : "#eee",
+                fontColor : "#666"
            });
    	});
 
@@ -47,6 +50,8 @@
                 text : "Taux d'embauche chaque année",
                 textBelow : true,
                 textStyle : "font-family : abel; font-size : 12px;",
+                fillColor : "#eee",
+                fontColor : "#666"
            });
    	});
 

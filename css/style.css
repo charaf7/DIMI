@@ -160,3 +160,24 @@ h3{
 	text-align: center;
 	color: #666;
 }
+.prize{
+	height: 30vh;
+	padding: 5%;
+	padding-left: 15%;
+	padding-top: 8%;
+}
+#prizeText{
+	float: left;
+	width: 60%;
+	color: #000;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: 15px;
+}
+#prizeImage{
+	float: left;
+	width: 20%;
+}
+#prizeImage img{
+	width: 60%;
+}
