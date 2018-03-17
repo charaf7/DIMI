@@ -15,32 +15,32 @@ $(document).ready(function()
     
      $( "#master" ).hover(
   function() {
-    $( "#submenu-master" ).css('visibility', 'visible');
+    $( "#submenu-master" ).css('display', 'block');
   }, function() {
-    $( "#submenu-master" ).css('visibility', 'hidden');
+    $( "#submenu-master" ).css('display', 'none');
   }
  );
     
       $( "#admission" ).hover(
   function() {
-    $( "#submenu-admission" ).css('visibility', 'visible');
+    $( "#submenu-admission" ).css('display', 'block');
   }, function() {
-    $( "#submenu-admission" ).css('visibility', 'hidden');
+    $( "#submenu-admission" ).css('display', 'none');
   }
 );
         
     $( "#realisation" ).hover(
   function() {
-    $( "#submenu-realisation" ).css('visibility', 'visible');
+    $( "#submenu-realisation" ).css('display', 'block');
   }, function() {
-    $( "#submenu-realisation" ).css('visibility', 'hidden');
+    $( "#submenu-realisation" ).css('display', 'none');
   }
 );
             $( "#mondepro" ).hover(
   function() {
-    $( "#submenu-mondePro" ).css('visibility', 'visible');
+    $( "#submenu-mondePro" ).css('display', 'block');
   }, function() {
-    $( "#submenu-mondePro" ).css('visibility', 'hidden');
+    $( "#submenu-mondePro" ).css('display', 'none');
   }
      
         
