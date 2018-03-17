@@ -27,10 +27,34 @@
 				<nav class="menu" id="menu">
 					<ul class="menu__list">
 						<li class="menu__element"><a href="index.html">Accueil</a></li>
-						<li class="menu__element"><a href="#">Le Master</a></li>
-						<li class="menu__element"><a href="#">Admission</a></li>
-						<li class="menu__element"><a href="pages/realisations.html">Réalisations</a></li>
-						<li class="menu__element"><a href="#">Monde professionnel</a></li>
+						<li class="menu__element" id="master"><a href="#">Le Master</a>
+							<ul id="submenu-master" class="submenu">
+	                            <li><a href="">Matières</a></li>  
+	                            <li><a href="">Professeurs</a></li> 
+	                            <li><a href="">Partenaires</a></li> 
+	                            <li><a href="">Installations</a></li> 
+	                        </ul>
+						</li>
+						<li class="menu__element" id="admission"><a href="#">Admission</a>
+							<ul id="submenu-admission" class="submenu" >
+	                           <li><a class="submenu" href="" >Master 1</a></li> 
+	                           <li><a class="submenu" href="">Master 2</a></li>
+	                        </ul>
+						</li>
+						<li class="menu__element" id="realisation"><a href="pages/realisations.html">Réalisations</a>
+							<ul id="submenu-realisation" class="submenu">
+		                        <li><a href="">Webdocumentaire</a></li> 
+		                        <li><a href="pages/maquettes.html">Maquettes</a></li>
+		                        <li><a href="">Mémoires</a></li>
+		                    </ul>
+						</li>
+						<li class="menu__element" id="mondepro"><a href="#">Monde professionnel</a>
+							<ul id="submenu-mondePro" class="submenu">
+		                        <li style="line-height: 30px;padding-top: 15px;padding-bottom:15px;"><a href="">Insertion professionnelle</a></li> 
+		                        <li style="line-height: 30px;padding-top: 15px;padding-bottom:15px;"><a href="">Témoignages d'anciens élèves</a></li>
+		                        <li><a href="">Stages</a></li>
+		                    </ul>
+						</li>
 					</ul>
 					</ul>
 				</nav>
@@ -148,5 +172,6 @@
 	<script src="js/jquery.circliful.min.js"></script>
 	<script src="js/stats.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/header.js"></script>
 </body>
 </html>

@@ -59,6 +59,7 @@ li.menu__element {
   line-height: 60px;
   text-align: center;
   color : #fff;
+  font-size: 18px;
 }
 .menu__element:last-child {
   border-bottom: none;
@@ -120,22 +121,132 @@ li.menu__element {
 .slide-element.slide3 {
   background: rgb(189, 189, 189)
 }
+
+/****************************************************************
+*               Header submenus
+****************************************************************/
+.submenu {
+  height: 0px;
+}
+li.menu__element:hover .submenu{
+  height:  100px;
+  transition: height 1s;
+}
+.submenu li {
+    list-style-type: none;
+    cursor: pointer;
+}
+.submenu li:hover {
+    background-color: #C71D82;
+}
+.submenu li:hover a{
+    color: #fff !important;
+}
+
+
+
+#submenu-master{
+    display: flex;
+    display : none;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #C71D82;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+        
+}
+
+#submenu-master a{   
+    text-decoration: none;
+    color: #727272;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    
+}
+
+#submenu-admission{
+    display: flex;
+    display : none;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #C71D82;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+        
+    
+}
+
+#submenu-admission a{   
+    text-decoration: none;
+    color: #727272;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    
+}
+
+#submenu-realisation{
+    display: flex;
+    display : none;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #C71D82;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+        
+}
+
+#submenu-realisation a{   
+    text-decoration: none;
+    color: #727272;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    
+}
+
+#submenu-mondePro{
+    display: flex;
+    display : none;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #C71D82;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+        
+}
+
+#submenu-mondePro a{   
+    text-decoration: none;
+    color: #727272;
+    font-family: 'Fjalla One', sans-serif;
+   font-size: 18px;
+    
+}
+
+
 /* SLIDER */
 
 @media screen and (min-width: 1025px) {
   .menu-wrapper {
     background: none;
-    width: 55%;
+    width: 62%;
   }
   ul.menu__list {
     flex-direction: row;
   }
   li.menu__element {
     position: relative;
-    width: 140px;
+    width: 162px;
     border-bottom: none;
   }
-  li.menu__element::after {
+  /*li.menu__element::after {
     content: "";
     position: absolute;
     top: 45px;
@@ -143,7 +254,7 @@ li.menu__element {
     height: 2px;
     width: 0;
     background: white;
-  }
+  }*/
   li.menu__element:hover {
     cursor: pointer;
     color: white;
