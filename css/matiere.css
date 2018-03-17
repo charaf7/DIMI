@@ -1,0 +1,52 @@
+h3{
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	color: #C71D82;
+}
+
+.box{
+	width: 45%;
+	float: left;
+	margin-left: 3.5%;
+}
+.part {
+	height: 118px;
+	float: left;
+	width: 100%;
+}
+.matieres {
+	width: 100%;
+	height: auto;
+	float: left;
+	border: 2px solid #C71D82;
+	border-radius: 5px;
+}
+.ue{
+	width: 20%;
+	float: left;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	color: #C71D82;
+	padding-top: 2%;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	height: 106px;
+}
+.element{
+	float: left;
+	width: 79.6%;
+}
+.element ul{
+	list-style-type: none;
+	cursor: pointer;
+	padding: 0;
+	margin : 0;
+}
+.element ul li{
+	height: 41px;
+	background-color: #eee;
+	font-family: 'Abel', sans-serif;
+	padding-left: 38px;
+	padding-top: 17px;
+	border-bottom: 1px solid #e1e1e1;
+}

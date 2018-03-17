@@ -276,29 +276,4 @@ h2 {
 	margin-bottom: 2%
 }
 
-.container {
-	
-	display: flex; 
-	flex-direction: row; 
-	justify-content: space-around;
-	
-}
-
-.semestre {
-	
-	width: 30%;
-	height: 450px;
-	float: left;
-	background-color: darkmagenta;
-	border-radius: 30px;
-}
-
-.matiere {
-	width: 65%;
-	height: 450px;
-	float: left;
-	background-color: palevioletred;
-	
-	border-radius: 30px;
-}
 

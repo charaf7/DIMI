@@ -1,0 +1,67 @@
+footer{
+	background-color: #47525E;
+	height: 200px;
+	display: flex;
+}
+.faq{
+	width: 30%;
+	margin-left: 20px;
+	position: relative;
+}
+.contact{
+	width: 30%;
+	margin-left: 20px;
+	line-height: 2;
+	position: relative;
+}
+.going{
+	width: 30%;
+	margin-left: 20px;
+}
+.infoPratique{
+	margin-left: 15px;
+	line-height: 2;
+}
+.universite{
+	margin-left: 15px;
+}
+.universite img{
+	width: 47%;
+}
+h4{
+	color: #BCBDBF;
+	font-family: 'Fjalla One', sans-serif;
+
+}
+h5{
+	margin: 0;
+}
+h5 a{
+	color: #BCBDBF;
+	text-decoration: none;
+	margin-left: 15px;
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+h5 a:hover{
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+}
+#map{
+	background-color:  #47525E;
+	width: 90%;
+	height: 120px;
+}
+.line{
+	height: 120px;
+	width: 1px;
+	background-color: #BCBDBF;
+	position: absolute;
+	top: 15%;
+	right: 0;
+}
+span{
+	color: #EAEAEA;
+	font-family: 'Abel', sans-serif;
+}
