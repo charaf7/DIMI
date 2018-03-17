@@ -219,29 +219,15 @@ h2 {
 .memoire-name {
 	font-family : "Fjalla One";
     font-weight: lighter;
+    color: #004D85;
 }
 
 .memoire-subject {
     font-family: "Abel";
+    color: #8c8c8c;
 }
 
-#webdoc1 {
-    background-image : url('../images/metronome.png');
-    background-size: cover;
-    background-position: center;
-}
 
-#webdoc2 {
-    background-image : url('../images/deepweb.png');
-    background-size: cover;
-    background-position: center;
-}
-
-#webdoc3 {
-    background-image : url('../images/decode.png');
-    background-size: cover;
-    background-position: center;
-}
 
 /* FOOTER */
 
