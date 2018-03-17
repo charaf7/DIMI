@@ -3,31 +3,49 @@
  <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" type="text/css" href="../css/realisations.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
         <link  rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fjalla+One" />
         <title> matières </title>
     </head>
     <body>
-        <header>
+       <header>
             <a href="../index.html"><img src="../images/logo_dimi.png" alt=""/></a>
             
             <div id="navigation">
-                <div id="menu">
-                    <a id="accueil" href="../index.html">Accueil</a>
-                    <a id="master" href="">Le master</a>              
-                    <a id="admission" href="">Admission</a>
-                    <a id="realisation" href="../pages/realisations.html">Réalisations</a>
-                    <a id="mondepro" href="">Monde Professionnel</a>  
+                <ul id="menu">
+                    <li><a id="accueil" href="../index.html">Accueil</a></li>
+                    <li id="master"><a  href="../pages/matiere.html">Le master</a> 
+                        <ul id="submenu-master" class="submenu">
+                            <a href="../pages/matiere.html"><li>Matières</li></a>  
+                            <a href=""><li>Professeurs</li></a>
+                            <a href=""><li>Partenaires</li></a> 
+                            <a href=""><li>Installations</li></a> 
+                        </ul>
+                    </li>              
+                    <li id="admission"><a  href="../pages/admission.html">Admission</a> 
+                        <ul id="submenu-admission" class="submenu" >
+                           <a class="submenu" href="../pages/admission.html" ><li>Master 1</li></a>
+                            <a class="submenu" href="../pages/admission.html"><li>Master 2</li></a>
+                        </ul>
+                    </li>
+                    <li id="realisation"><a  href="../pages/realisations.html">Réalisations</a>
+                        <ul id="submenu-realisation" class="submenu">
+                            <a href=""><li>Webdocumentaire</li></a> 
+                            <a href="../pages/maquettes.html"><li>Maquettes</li></a>
+                            <a href=""><li>Mémoires</li></a>
+                        </ul>
+                    </li>
+                    
+                   <li id="mondepro"><a href="">Monde Professionnel</a>
+                        <ul id="submenu-mondePro" class="submenu">
+                            <a  href=""><li style="padding-top: 15px;padding-bottom: 15px;line-height: 28px;">Insertion professionnelle</li> </a>
+                            <a  href=""><li style="padding-top: 15px;padding-bottom: 15px;line-height: 28px;">Témoignages d'anciens élèves</li></a>
+                           <a href=""><li>Stages</li></a>
+                        </ul>
+                    </li>  
                 
-            </div>
-            
-                <div id="submenu">
-                    <div id="submenu-index">bla</div>
-                    <div id="submenu-master"> <a href="">Matières</a> <a href="">Professeurs</a> <a href="">Partenaires</a><a href="">Installations</a></div>
-                    <div id="submenu-admission"><a href="">Master 1</a> <a href="">Master 2</a></div>
-                    <div id="submenu-realisation"><a href="">Webdocumentaire</a> <a href="">Maquettes</a> <a href="">Mémoires</a>  </div>
-                    <div id="submenu-mondePro"><a href="">Insertion professionnelle</a> <a href="">Témoignages d'anciens élèves</a> <a href="">Stages</a></div>
-                </div>
-            </div>
+            </ul>
+            </div> 
         </header>
         
         <div id="banniere">
@@ -55,7 +73,26 @@
 		</div>
 		
 		
-		
+		<footer style="float: left;width: 100%">
+            <div class="faq">
+                <h4 class="infoPratique">Infos pratiques</h4>
+                <h5><a href="faq.html">F.A.Q</a></h5>
+                <div class="universite"><a href="https://www.univ-paris13.fr/"><img src="../images/logo-UP13.png"></a></div>
+                <div class="line"></div>
+            </div>
+            <div class="contact">
+                <h4 class="contactText">Contact</h4>
+                <span><b>Mail:</b> master.dimi@univ-paris13.fr</span><br>
+                <span><b>Tél:</b> 01 49 40 20 44</span><br>
+                <span><bold>Bureau G-210</bold></span>
+                <div class="line"></div>
+            </div>
+            <div class="going">
+                <h4>Comment s'y rendre</h4>
+                <div id="map"></div>
+            </div>
+            
+        </footer>
 		
         <script src="../jquery/jquery-3.2.1.min.js"></script>
         <script src="../js/header.js"></script>

@@ -125,19 +125,13 @@ li.menu__element {
 /****************************************************************
 *               Header submenus
 ****************************************************************/
-.submenu {
-  height: 0px;
-}
-li.menu__element:hover .submenu{
-  height:  100px;
-  transition: height 1s;
-}
 .submenu li {
     list-style-type: none;
     cursor: pointer;
 }
 .submenu li:hover {
     background-color: #C71D82;
+    color: #fff;
 }
 .submenu li:hover a{
     color: #fff !important;
