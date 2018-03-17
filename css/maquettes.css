@@ -257,6 +257,12 @@ h2 {
     background-position: center;
 }
 
+#maquette2 {
+    background-image : url('../images/lifecad.png');
+    background-size: cover;
+    background-position: center;
+}
+
 #maquette3 {
     background-image : url('../images/inovtech.png');
     background-size: cover;
