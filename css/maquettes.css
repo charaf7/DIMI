@@ -199,8 +199,13 @@ h2 {
 	height: 40vw;
 	margin: 0.6%;
 	overflow: hidden;
-    border-radius: 10px;
     text-align: center;
+    cursor: pointer;
+    opacity: 0.95;
+}
+
+.maquettes:hover {
+    opacity: 1;
 }
 
 .maquettes-info {
@@ -232,6 +237,7 @@ h2 {
 
 .maquettes-description:hover{
     opacity: 1;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .contexte {
@@ -244,7 +250,17 @@ h2 {
     padding: 5px;
 }
 
+#maquette1 {
+    background-image : url('../images/nuitlecture.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
+#maquette3 {
+    background-image : url('../images/inovtech.png');
+    background-size: cover;
+    background-position: center;
+}
 
 /* FOOTER */
 
