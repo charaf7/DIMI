@@ -1,0 +1,114 @@
+$(document).ready(function(){
+                $("#m11").load("../pages/matieres/s1/m11.html");
+});
+$(document).ready(function(){
+                $("#m21").load("../pages/matieres/s1/m21.html");
+});
+$(document).ready(function(){
+                $("#m31").load("../pages/matieres/s1/m31.html");
+});
+$(document).ready(function(){
+                $("#m41").load("../pages/matieres/s1/m41.html");
+});
+$(document).ready(function(){
+                $("#m51").load("../pages/matieres/s1/m51.html");
+});
+$(document).ready(function(){
+                $("#m61").load("../pages/matieres/s1/m61.html");
+});
+$(document).ready(function(){
+                $("#m71").load("../pages/matieres/s1/m71.html");
+});
+$(document).ready(function(){
+                $("#m81").load("../pages/matieres/s1/m81.html");
+});
+$(document).ready(function(){
+                $("#m91").load("../pages/matieres/s1/m91.html");
+});
+$(document).ready(function(){
+                $("#m101").load("../pages/matieres/s1/m101.html");
+});
+$(document).ready(function(){
+                $("#m111").load("../pages/matieres/s1/m111.html");
+});
+$(document).ready(function(){
+                $("#m121").load("../pages/matieres/s1/m121.html");
+});
+$(document).ready(function(){
+                $("#m131").load("../pages/matieres/s1/m131.html");
+});
+
+/*_________________________S2______________________________*/
+$(document).ready(function(){
+                $("#m12").load("../pages/matieres/s2/m12.html");
+});
+$(document).ready(function(){
+                $("#m22").load("../pages/matieres/s2/m22.html");
+});
+$(document).ready(function(){
+                $("#m32").load("../pages/matieres/s2/m32.html");
+});
+$(document).ready(function(){
+                $("#m42").load("../pages/matieres/s2/m42.html");
+});
+$(document).ready(function(){
+                $("#m52").load("../pages/matieres/s2/m52.html");
+});
+$(document).ready(function(){
+                $("#m62").load("../pages/matieres/s2/m62.html");
+});
+$(document).ready(function(){
+                $("#m72").load("../pages/matieres/s2/m72.html");
+});
+$(document).ready(function(){
+                $("#m82").load("../pages/matieres/s2/m82.html");
+});
+$(document).ready(function(){
+                $("#m92").load("../pages/matieres/s2/m92.html");
+});
+$(document).ready(function(){
+                $("#m102").load("../pages/matieres/s2/m102.html");
+});
+
+/*_________________________S3______________________________*/
+$(document).ready(function(){
+                $("#m13").load("../pages/matieres/s3/m13.html");
+});
+$(document).ready(function(){
+                $("#m23").load("../pages/matieres/s3/m23.html");
+});
+$(document).ready(function(){
+                $("#m33").load("../pages/matieres/s3/m33.html");
+});
+$(document).ready(function(){
+                $("#m43").load("../pages/matieres/s3/m43.html");
+});
+$(document).ready(function(){
+                $("#m53").load("../pages/matieres/s3/m53.html");
+});
+$(document).ready(function(){
+                $("#m63").load("../pages/matieres/s3/m63.html");
+});
+$(document).ready(function(){
+                $("#m93").load("../pages/matieres/s3/m93.html");
+});
+
+/*_________________________S4______________________________*/
+$(document).ready(function(){
+                $("#m14").load("../pages/matieres/s4/m14.html");
+});
+$(document).ready(function(){
+                $("#m24").load("../pages/matieres/s4/m24.html");
+});
+$(document).ready(function(){
+                $("#m34").load("../pages/matieres/s4/m34.html");
+});
+$(document).ready(function(){
+                $("#m44").load("../pages/matieres/s4/m44.html");
+});
+$(document).ready(function(){
+                $("#m54").load("../pages/matieres/s4/m54.html");
+});
+$(document).ready(function(){
+                $("#m64").load("../pages/matieres/s4/m64.html");
+});
