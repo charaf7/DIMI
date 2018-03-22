@@ -148,7 +148,42 @@ h4{
 }
 
 .modal-window h1 {
-  font-size: 150%;
+  font-size: 200%;
   margin: 0 0 15px;
   text-transform: uppercase;
+}
+
+.midd{
+	height: 90vh;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.midd h2{
+
+	font-size: 38px;
+	margin-top: 230px;
+	color: #C71D82;
+}
+
+.left{
+	float: left;
+	width: 45%;
+	height: 90vh;
+	font-family: 'Abel';
+}
+.right{
+	float: left;
+	width: 45%;
+	height: 90vh;
+	font-family: 'Abel';
+	margin-left: 5%;
+}
+.matiere .content h2{
+	color: #000;
+	margin-top: 37px;
+}
+.webographie a {
+	color: #fff;
+	text-decoration: underline;
 }
