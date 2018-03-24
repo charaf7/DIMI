@@ -70,7 +70,6 @@ a{
     list-style-type: none;
 }
 
-#submenu-index{
     display: flex;
     visibility: hidden;
     flex-direction: column;
@@ -87,77 +86,9 @@ a{
    font-size: 18px;
 }
 
-
-#submenu-master{
-    display: flex;
-     visibility: hidden;
-    flex-direction: column;
-    background-color: white; 
-    padding-left: 7px;
-    padding-bottom: 7px;
+ul{
+	z-index: 999;
 }
-
-#submenu-master a{   
-    text-decoration: none;
-    color: #8c8c8c;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 18px;
-}
-
-#submenu-admission{
-    display: flex;
-     visibility: hidden;
-    flex-direction: column;
-    background-color: white;
-    padding-left: 7px;
-    padding-bottom: 7px;  
-}
-
-#submenu-admission a{   
-    text-decoration: none;
-    color: #8c8c8c;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 18px;
-}
-
-#submenu-realisation{
-   display: flex;
-     visibility: hidden;
-    flex-direction: column;
-    background-color: white;
-    padding-left: 7px;
-    padding-bottom: 7px;
-}
-
-#submenu-realisation a{   
-    text-decoration: none;
-    color: #8c8c8c;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 18px; 
-}
-
-#submenu-mondePro{
-    display: flex;
-     visibility: hidden;
-    flex-direction: column;
-    background-color: white;
-   padding-right: 40px;
-    padding-left: 7px;
-}
-
-#submenu-mondePro a{   
-    text-decoration: none;
-    color: #8c8c8c;
-    font-family: 'Fjalla One', sans-serif;
-   font-size: 18px;
-}
-
-
-#conteneur {
-	display: flex;
-	flex-direction: column;
-}
-
 h2 {
 	font-family: 'Fjalla One', sans-serif;
 	color: #1d2354;
@@ -202,7 +133,7 @@ h2 {
 	justify-content: center;
 }
 
-.webdoc {
+.webdocu {
 	background-color: rgba(0,0,0,0.7);
 	width: 100%;
 	height: 40vw;
@@ -213,7 +144,7 @@ h2 {
     opacity: 0.95;
 }
 
-.webdoc:hover {
+.webdocu:hover {
     opacity: 1;
 }
 
@@ -339,6 +270,22 @@ span{
 }
 
 
+
+
+#banniere{
+    background-color: #004D85;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 2%;
+    color: #FFFFFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+    height: 12vh;
+}
+
+#banniere a{
+	color: #fff;
+}
 
 
  
