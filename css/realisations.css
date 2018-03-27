@@ -277,3 +277,12 @@ h2 {
 }
 
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+
+    #menu>li{
+        line-height: 45px;
+    }
+    .submenu li{
+        line-height: 75px;
+    }
+}
