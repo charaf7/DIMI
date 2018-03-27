@@ -72,3 +72,28 @@ h2 {
 	display:flex;
 	
 }
+
+
+#date {
+    padding-left: 4%;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    width: 93vw;
+    
+}
+
+#dossier {
+    padding-left: 4%;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    width: 93vw;
+    
+}
+
+#matieres_cles {
+    padding-left: 4%;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    width: 93vw;
+    
+}
