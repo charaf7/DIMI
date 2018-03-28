@@ -58,16 +58,19 @@ h2 {
 	width: 30%;
     margin: 5px; 
     justify-content: center;
-    background-color: #f1f1f1;
+    background-color: white;
+    margin-bottom: 3%;
     
 	
 }
 
 .description{
-    padding: 20px;
-    text-align: justify;
+    padding: 1px;
+    text-align: center;
     font-family: 'Abel', sans-serif;
     font-size: 20px;
+    background-color: #f1f1f1;
+    line-height: 1.5;
 }
 
 
@@ -85,15 +88,14 @@ h2 {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 50%;
+    
 }
 
-#prof2{
-    background-color: #0C568B;
-    color: white;
+.professeurs a{
+    color : #004D85;
 }
 
-#prof3{
-    background-color: #0C568B;
-    color: white;
-    border: solid #0C568B 1px;
+.professeurs a:hover{
+    text-decoration: underline;
 }
