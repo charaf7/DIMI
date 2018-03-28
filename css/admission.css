@@ -56,14 +56,14 @@ h2 {
 .description {
 	
 	width: 100%;
-	padding-left: 10px;
+	
 	
 }
 
 .liste {
 	width: 30%;
 	padding-left: 30%;
-	
+	list-style-type: square;
 }
 
 
@@ -96,4 +96,14 @@ h2 {
     font-size: 18px;
     width: 93vw;
     
+}
+#dossier a {
+	color: #c71d82;
+}
+strong{
+	color: #004d85;
+}
+#condition h4{
+	font-size: 20px;
+	color: #004d85;
 }
