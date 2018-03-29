@@ -53,7 +53,7 @@ h2 {
 }
 
 
-.PresentationProf{
+.illustration{
 	
 	width: 30%;
     margin: 5px; 
@@ -69,37 +69,41 @@ h2 {
     text-align: center;
     font-family: 'Abel', sans-serif;
     font-size: 20px;
-    background-color: #f1f1f1;
-    line-height: 1.5;
+    margin-bottom: 4%;
 }
 
 
-.professeurs{
+.DivIllustrations{
 	display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
+    
    
 }
 
-.professeurs img{
+.DivIllustrations img{
     width: 100%;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 50%;
     
 }
 
-.professeurs a{
-    color : #004D85;
-}
-
-.professeurs a:hover{
-    text-decoration: underline;
+.intro{
+  margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    margin-bottom: 4%;
 }
 
 hr {
-    width: inherit;
+    width: 100%;
+}
+
+#photo img{
+    margin-top: 4%;
 }
