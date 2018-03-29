@@ -22,7 +22,72 @@ a {
 }
 /* GLOBAL */
 
-/* HEADER */
+
+/****************************************************************
+*               Header Menu
+****************************************************************/
+
+/*burger menu*/
+.menu-btn {
+  display: inline-block;
+  outline:none;
+  cursor:pointer;
+  background:none;
+  border:0;
+  position: absolute;
+  right: 0;
+  top: 17px;
+  z-index: 2;
+}
+
+.burger-icon {
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.burger-icon, .burger-icon:before, .burger-icon:after {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #000000;
+  -webkit-transition-property: background-color, -webkit-transform;
+  -moz-transition-property: background-color, -moz-transform;
+  -o-transition-property: background-color, -o-transform;
+  transition-property: background-color, transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.burger-icon:before, .burger-icon:after {
+  position: absolute;
+  content: "";
+}
+.burger-icon:before {
+  top: -8px;
+}
+.burger-icon:after {
+  top: 8px;
+}
+
+.menu-btn.is-active .burger-icon {
+  background-color: transparent;
+}
+.menu-btn.is-active .burger-icon:before {
+  -webkit-transform: translateY(8px) rotate(45deg);
+  -moz-transform: translateY(8px) rotate(45deg);
+  -ms-transform: translateY(8px) rotate(45deg);
+  -o-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+.menu-btn.is-active .burger-icon:after {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  -moz-transform: translateY(-8px) rotate(-45deg);
+  -ms-transform: translateY(-8px) rotate(-45deg);
+  -o-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 .header-wrapper {
   background: url('../images/1.png') no-repeat center;
   background-size: cover;
@@ -30,6 +95,7 @@ a {
   height: 100vh;
 }
 .navigation-wrapper {
+  min-height: 60px;
   display: flex;
   justify-content: space-between;
   background : rgba(202, 205, 207, 0.2);
@@ -41,8 +107,10 @@ a {
   background : #C71D82;
 }
 .menu-wrapper {
-  background-color: #E5E9F1;
-  width: 320px;
+  display: none;
+  background-color: #C71D82;
+  width: 100%;
+  z-index: 1;
 }
 .menu-wrapper .menu{
   margin-top: 12px;
@@ -78,8 +146,11 @@ li.menu__element {
   margin-top: 0;
   color :#fff;
 }
-.logo-container img{
-  height: 65px;
+.header-wrapper .logo-container {
+  position: absolute;
+}
+.header-wrapper .logo-container img{
+  height: 40px;
   width: auto;
   padding: 10px;
 }
@@ -97,9 +168,54 @@ li.menu__element {
 .btn-godown .fa-chevron-down::before {
   font-size: 50px;
 }
-/* HEADER */
 
-/* SLIDER */
+
+@media screen and (min-width: 1280px) {
+  .header-wrapper .logo-container {
+    position: initial;
+  }
+  .header-wrapper .logo-container img {
+    height: 65px;
+  }
+  .navigation-wrapper .menu-btn {
+    display: none;
+  }
+  .menu-wrapper {
+    display: block;
+    background: none;
+    width: 62%;
+  }
+  ul.menu__list {
+    flex-direction: row;
+  }
+  li.menu__element {
+    position: relative;
+    width: 162px;
+    border-bottom: none;
+  }
+  /*li.menu__element::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: white;
+  }*/
+  li.menu__element:hover {
+    cursor: pointer;
+    color: white;
+  }
+  li.menu__element:hover::after {
+    width: 140px;
+    transition: width 0.5s;
+  }
+
+}
+
+/****************************************************************
+*               Slider
+****************************************************************/
 .slide-container .slick-prev {
   left: 30px;
   z-index: 1;
@@ -222,40 +338,4 @@ li.menu__element {
     font-family: 'Fjalla One', sans-serif;
    font-size: 18px;
     
-}
-
-
-/* SLIDER */
-
-@media screen and (min-width: 1025px) {
-  .menu-wrapper {
-    background: none;
-    width: 62%;
-  }
-  ul.menu__list {
-    flex-direction: row;
-  }
-  li.menu__element {
-    position: relative;
-    width: 162px;
-    border-bottom: none;
-  }
-  /*li.menu__element::after {
-    content: "";
-    position: absolute;
-    top: 45px;
-    left: 0;
-    height: 2px;
-    width: 0;
-    background: white;
-  }*/
-  li.menu__element:hover {
-    cursor: pointer;
-    color: white;
-  }
-  li.menu__element:hover::after {
-    width: 140px;
-    transition: width 0.5s;
-  }
-
 }

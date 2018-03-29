@@ -3,6 +3,7 @@
 <head>
 	<title>DIMI</title>
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
@@ -23,7 +24,10 @@
 			<div class="logo-container">
 				<a href="index.html"><img class="logo-img" id="logo" src="images/logo_dimi.png" width="150" heigh="auto" alt="logo-dimi"></a>
 			</div>
-			<div class="menu-wrapper">
+			<button class="menu-btn" id="menuButton">
+				<span class="burger-icon"></span>
+			</button>
+			<div class="menu-wrapper" id="js-menu-container">
 				<nav class="menu" id="menu">
 					<ul class="menu__list">
 						<li class="menu__element"><a href="index.html">Accueil</a></li>

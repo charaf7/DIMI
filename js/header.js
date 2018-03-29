@@ -1,6 +1,11 @@
-$(document).ready(function()
-{
- 
+$(document).ready(function() {
+
+  var menuButton = $('#menuButton');
+  menuButton.on('click', function (e) {
+    e.preventDefault();
+    menuButton.toggleClass('is-active');
+    $("#js-menu-container").slideToggle("slow");
+  });
     
  $( "#accueil" ).hover(
   function() {
