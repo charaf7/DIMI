@@ -181,7 +181,7 @@ li.menu__element {
     display: none;
   }
   .menu-wrapper {
-    display: block;
+    display: block !important;
     background: none;
     width: 62%;
   }
