@@ -1,0 +1,39 @@
+.part{
+	width: 80%;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.face{
+	width: 20%;
+	float: left;
+	margin-left: 15%;
+	
+}
+.face img{
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+}
+
+.box{
+	width: 60%;
+	float: left;
+}
+.name{
+	font-family: 'Fjalla One', sans-serif;
+}
+.text{
+	font-family: 'Abel', sans-serif;
+}
+.function{
+	text-align: right;
+}
+.function span{
+	color: #a5a5a5;
+}
+.lineH{
+	width: 64%;
+	background-color: #eee;
+	height: 1px;
+	margin-left: 22%;
