@@ -65,3 +65,28 @@ span{
 	color: #EAEAEA;
 	font-family: 'Abel', sans-serif;
 }
+
+@media only screen and (max-width: 780px) {
+
+	footer{
+    	float: left;
+    	width: 100%;
+		flex-direction: column;
+		height: auto;
+		padding-bottom: 50px;
+    }
+    .faq, .contact, .going{
+    	width: auto;
+    	
+    }
+    footer h4{
+    	text-align: center;
+    }
+    .infoPratique{
+    	margin-left: 0;
+    }
+    .presentation p {
+    	padding-right: 30px;
+		padding-left: 30px;
+    }
+}
