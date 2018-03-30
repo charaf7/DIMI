@@ -37,3 +37,19 @@
 	background-color: #eee;
 	height: 1px;
 	margin-left: 22%;
+}
+
+@media only screen and (max-width: 780px) {
+	.face{
+		width: 100%;
+		margin-left: 22%;
+		margin-top: 30px;
+	}
+	.box{
+		width: 100%;
+	}
+	.lineH{
+		float: left;
+	}
+
+}

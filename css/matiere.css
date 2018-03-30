@@ -191,6 +191,32 @@ h4{
 	color: #fff;
 	text-decoration: underline;
 }
+.element ul{
+	line-height: 22px;
+}
 header ul{
 	z-index: 999;
+}
+
+@media only screen and (max-width: 780px) {
+
+	.box{
+		width: 90%;
+	}
+	.ue{
+		height: 55px;
+	}
+	.part{
+		height: 61px;
+	}
+	.left{
+		width: 80%;
+		height: auto;
+	}
+	.right{
+		width: 80%;
+		margin-left: 0;
+		height: 180vh;
+	}
+
 }
