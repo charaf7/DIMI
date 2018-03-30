@@ -90,19 +90,19 @@ h2 {
 
 
 #webdoc1 {
-    background-image : url('../images/metronome.png');
+    background-image : url('../images/metronome.PNG');
     background-size: cover;
     background-position: center;
 }
 
 #webdoc2 {
-    background-image : url('../images/deepweb.png');
+    background-image : url('../images/deepweb.PNG');
     background-size: cover;
     background-position: center;
 }
 
 #webdoc3 {
-    background-image : url('../images/decode.png');
+    background-image : url('../images/decode.PNG');
     background-size: cover;
     background-position: center;
 }
