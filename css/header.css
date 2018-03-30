@@ -3,6 +3,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  line-height: 60px;
 }
 h1 {
   font-family: 'Fjalla One', sans-serif;
@@ -344,4 +345,19 @@ li.menu__element .submenu {
     font-family: 'Fjalla One', sans-serif;
    font-size: 18px;
     
+}
+
+.pages_element{
+  line-height: 45px !important;
+}
+
+@media only screen and (max-width: 780px) {
+
+  .pagesLogoPosition{
+    position: absolute;
+  }
+  .respLogo {
+    height: 40px;
+    width: auto;
+  }
 }
