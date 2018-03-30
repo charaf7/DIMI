@@ -123,7 +123,7 @@ li.menu__element {
   display: block;
   border-bottom: 1px solid white;
   font-family: 'Fjalla One', sans-serif;
-  height: 60px;
+  min-height: 60px;
   line-height: 60px;
   text-align: center;
   color : #fff;
@@ -131,6 +131,13 @@ li.menu__element {
 }
 .menu__element:last-child {
   border-bottom: none;
+}
+li.menu__element .submenu {
+  display: none;
+}
+.cta-menu, .cta-submenu {
+  display: inline-block;
+  width: 100%;
 }
 .title-wrapper {
   text-align: center;
@@ -190,6 +197,7 @@ li.menu__element {
   }
   li.menu__element {
     position: relative;
+    height: 60px;
     width: 162px;
     border-bottom: none;
   }
@@ -205,6 +213,12 @@ li.menu__element {
   li.menu__element:hover {
     cursor: pointer;
     color: white;
+  }
+  li.menu__element .submenu {
+    display: none !important;
+  }
+  li.menu__element:hover .submenu {
+    display: block !important;
   }
   li.menu__element:hover::after {
     width: 140px;
@@ -256,8 +270,6 @@ li.menu__element {
 
 
 #submenu-master{
-    display: flex;
-    display : none;
     flex-direction: column;
     background-color: #fff;
     border: 2px solid #C71D82;
@@ -277,8 +289,6 @@ li.menu__element {
 }
 
 #submenu-admission{
-    display: flex;
-    display : none;
     flex-direction: column;
     background-color: #fff;
     border: 2px solid #C71D82;
@@ -299,8 +309,6 @@ li.menu__element {
 }
 
 #submenu-realisation{
-    display: flex;
-    display : none;
     flex-direction: column;
     background-color: #fff;
     border: 2px solid #C71D82;
@@ -320,8 +328,6 @@ li.menu__element {
 }
 
 #submenu-mondePro{
-    display: flex;
-    display : none;
     flex-direction: column;
     background-color: #fff;
     border: 2px solid #C71D82;
