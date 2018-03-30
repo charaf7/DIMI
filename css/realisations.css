@@ -263,20 +263,22 @@ a{
 
 h2 {
 	font-family: 'Fjalla One', sans-serif;
-	color: #1d2354;
+	color: #fff;
 	font-size : 24px;
 	margin: 0;
 	padding: 0;
 }
 
 #h2-wrap {
-	border-bottom : solid 1px #1d2354;
-	display: inline-block;
 	width: 150px;
-	text-align: center;	
-	margin-top : 2%;
-	padding-bottom: 0%;
-	margin-bottom: 2%
+    text-align: center;
+    background: #1b4563;
+    color: #fff !important;
+    padding: 14px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    display: block;
+    margin-bottom: 39px;
 }
 
 
