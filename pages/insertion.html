@@ -1,0 +1,107 @@
+<html lang="fr">
+
+ <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/header.css">
+        <link rel="stylesheet" type="text/css" href="../css/fontawesome-all.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/insertion.css" />
+        <link rel="stylesheet" type="text/css" href="../css/realisations.css" />
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+        <link  rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fjalla+One" />
+        <title> Partenaires </title>
+    </head>
+    <body>
+        <header>
+            <div class="navigation-wrapper" style="background : #C71D82;">
+                <div class="logo-container pagesLogoPosition">
+                    <a href="index.html"><img class="logo-img respLogo" id="logo" src="../images/logo_dimi.png" width="150" heigh="auto" alt="logo-dimi" ></a>
+                </div>
+                <button class="menu-btn" id="menuButton">
+                    <span class="burger-icon"></span>
+                </button>
+                <div class="menu-wrapper" id="js-menu-container">
+                    <nav class="menu" id="menu">
+                        <ul class="menu__list" style="width: 100%">
+                            <li class="menu__element pages_element"><a href="../index.html">Accueil</a></li>
+                            <li class="menu__element pages_element" id="master"><a class="cta-menu js-open-submenu" href="#">Le Master</a>
+                                <ul id="submenu-master" class="submenu">
+                                    <li><a class="cta-submenu" href="../pages/matiere.html">Matières</a></li>
+                                    <li><a class="cta-submenu" href="../pages/professeur.html">Professeurs</a></li>
+                                    <li><a class="cta-submenu" href="../pages/partenaires.html">Partenaires</a></li>
+                                    <li><a class="cta-submenu" href="../pages/installations.html">Installations</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__element js-submenu pages_element" id="admission"><a class="cta-menu js-open-submenu" href="#">Admission</a>
+                                <ul id="submenu-admission" class="submenu" >
+                                    <li><a class="cta-submenu" href="../pages/admission1.html" >Master 1</a></li>
+                                    <li><a class="cta-submenu" href="../pages/admission2.html">Master 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__element js-submenu pages_element" id="realisation"><a class="cta-menu js-open-submenu" href="../pages/realisations.html">Réalisations</a>
+                                <ul id="submenu-realisation" class="submenu">
+                                    <li><a class="cta-submenu" href="../pages/Webdocumentaire.html">Webdocumentaire</a></li> 
+                                    <li><a class="cta-submenu" href="../pages/maquettes.html">Maquettes</a></li>
+                                    <li><a class="cta-submenu" href="../pages/memoires.html">Mémoires</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__element js-submenu pages_element" id="mondepro"><a class="cta-menu js-open-submenu" href="#">Monde professionnel</a>
+                                <ul id="submenu-mondePro" class="submenu">
+                                        <li style="padding-top: 15px;padding-bottom: 15px;line-height: 28px;"><a class="cta-submenu" href="#">Insertion professionnelle</a></li> 
+                                        <li style="padding-top: 15px;padding-bottom: 15px;line-height: 28px;"><a class="cta-submenu" href="../pages/temoignages.html">Témoignages d'anciens élèves</a></li>
+                                        <li><a class="cta-submenu" href="../pages/stage.html">Stages</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> 
+        </header>
+            <main>
+                <div id="banniere">
+                    <h1>Monde Professionnel</h1>
+                </div>
+                
+        		<div id="h2-wrap">
+        			<h2>insertion professionnelle</h2>
+        		</div>
+        		<div class="intro">
+                    <p> Le Master Design d'Interface Multimédia et Internet forme a différents métiers du numérique tels que :
+                    </p>
+        
+                </div>
+        		<div class="image">
+            		<div class="infographie"> 
+                   <!-- photo prof -->
+                        <div class="photo"> <img src="../images/metier.png" /> </div> 
+            		</div>
+        		</div>
+                    
+		    </main>
+            <footer style="float: left;width: 100%;margin-top: 100px;">
+            <div class="faq">
+                <h4 class="infoPratique">Infos pratiques</h4>
+                <h5><a href="faq.html">F.A.Q</a></h5>
+                <div class="universite"><a href="https://www.univ-paris13.fr/"><img src="../images/logo-UP13.png"></a></div>
+                <div class="line"></div>
+            </div>
+            <div class="contact">
+                <h4 class="contactText">Contact</h4>
+                <span><b>Mail:</b> master.dimi@univ-paris13.fr</span><br>
+                <span><b>Tél:</b> 01 49 40 20 44</span><br>
+                <span><bold>Bureau G-210</bold></span>
+                <div class="line"></div>
+            </div>
+            <div class="going">
+                <h4>Comment s'y rendre</h4>
+                <div id="map"></div>
+            </div>
+            
+        </footer>
+        
+        <script src="../jquery/jquery-3.2.1.min.js"></script>
+        <script src="../js/header.js"></script>
+        <script src="../js/map.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAI9eX805O1gqZDfQubFn34drs8LVN164U&callback=initMap"></script>
+    </body>
+</html>
