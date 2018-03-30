@@ -185,3 +185,78 @@ h3{
 header ul{
 	z-index: 999;
 }
+
+
+@media only screen and (max-width: 780px) {
+  	.picture img {
+	    width: 34%;
+	    margin-left: 115px;
+	}
+	.picture span {
+	    width: 100%;
+	    margin-top: 15px;
+	    margin-left: 0px;
+	    text-align: center;
+	}
+	.picture{
+		height: 261px;
+	}
+	.motChef {
+    	width: 100%;
+    }
+    .motChef p{
+    	padding: 42px;
+    	margin-right: 0;
+    }
+    #horizLine{
+    	float: left;
+    	margin-left: 37px;
+    }
+    .prize{
+    	float: left;
+    	padding: 0;
+    	height: 70vh;
+    }
+    #prizeImage{
+    	width: 100%;
+    	margin-top: 25px;
+    }
+    #prizeImage img{
+    	width: 40%;
+    	display: block;
+		margin: 0 auto;
+    }
+    #prizeText{
+    	width: 100%;
+    	text-align: center;
+    }
+    .stats{
+    	float: left;
+    	width: 100%;
+    	height: 190vh;
+    }
+    .stats .row{
+    	width: 100%;
+    }
+    footer{
+    	float: left;
+    	width: 100%;
+		flex-direction: column;
+		height: auto;
+		padding-bottom: 50px;
+    }
+    .faq, .contact, .going{
+    	width: auto;
+    	
+    }
+    footer h4{
+    	text-align: center;
+    }
+    .infoPratique{
+    	margin-left: 0;
+    }
+    .presentation p {
+    	padding-right: 30px;
+		padding-left: 30px;
+    }
+}
