@@ -42,7 +42,7 @@
 @media only screen and (max-width: 780px) {
 	.face{
 		width: 100%;
-		margin-left: 22%;
+		margin-left: 0;
 		margin-top: 30px;
 	}
 	.box{
@@ -50,6 +50,10 @@
 	}
 	.lineH{
 		float: left;
+	}
+	.face img{
+		margin: 0 auto;
+		display: block;
 	}
 
 }
